@@ -21,11 +21,12 @@ body{
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 3rem; /* Adjust font size for better readability */
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
+    box-sizing: border-box;
 }
 .keys{
     display: grid;
