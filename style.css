@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -9,47 +9,49 @@ body{
     background-size: cover;
     background-position: center;
 }
-.calculator{
-   
+
+.calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 400px; /* Reduce the max width to make it smaller */
     width: 100%;
     overflow: hidden;
-    padding: 15px; 
+    padding: 15px; /* Reduced padding for a more compact look */
 }
-#display{
+
+#display {
     width: 100%;
-    padding: 20px;
-    font-size: 3rem; /* Adjust font size for better readability */
+    padding: 15px;
+    font-size: 2.5rem; /* Adjust font size to be smaller */
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
     box-sizing: border-box;
 }
-.keys{
-    
+
+.keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 15px;
+    gap: 8px; /* Reduce gap between buttons */
+    padding: 10px;
 }
 
 button {
     width: 100%;
-    height: 100px;
+    height: 80px; /* Reduced button height */
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
     color: white;
-    font-size: 2.5rem; /* Adjust button text size */
+    font-size: 2rem; /* Reduced font size for buttons */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
     box-sizing: border-box;
 }
+
 button:hover {
     background-color: hsl(0, 0%, 40%);
 }
@@ -57,6 +59,7 @@ button:hover {
 button:active {
     background-color: hsl(0, 0%, 50%);
 }
+
 #operator_btn {
     background-color: hsl(35, 100%, 55%);
 }
@@ -68,100 +71,44 @@ button:active {
 #operator_btn:active {
     background-color: hsl(35, 100%, 75%);
 }
-@media (max-width: 500px) {
-    .calculator {
-        padding: 20px 15px;
-    }
-
-    .calculator h2 {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-    }
-
-    .row {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .row input {
-        padding: 8px;
-        font-size: 1rem;
-    }
-
-    .row button {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    ul li {
-        font-size: 1rem;
-        padding: 10px 5px 10px 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .calculator {
-        padding: 15px;
-    }
-
-    .calculator h2 {
-        font-size: 1.2rem;
-    }
-
-    ul li {
-        font-size: 0.9rem;
-        padding: 8px 4px 8px 35px;
-    }
-}
-#operator_btn:hover{
-    background-color: hsl(35, 100%, 65%);
-}
-#operator_btn:active{
-    background-color: hsl(35, 100%, 75%);
-}
 
 @media (max-width: 768px) {
     #display {
-        font-size: 2.5rem; /* Adjust for medium devices */
+        font-size: 2.2rem; /* Adjust font size for medium devices */
     }
 
     button {
-        font-size: 2.2rem;
-        height: 80px; /* Adjust button size */
+        font-size: 1.8rem; /* Adjust button font size */
+        height: 70px; /* Smaller button height */
     }
 }
 
 @media (max-width: 500px) {
     .calculator {
-        padding: 20px 10px;
+        padding: 10px; /* Further reduce padding */
     }
 
     #display {
         font-size: 2rem; /* Adjust for smaller screens */
     }
 
-    .keys {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
-    }
-
     button {
-        font-size: 1.8rem;
-        height: 70px; /* Adjust button size */
+        font-size: 1.6rem; /* Smaller font size */
+        height: 60px; /* Make buttons even smaller */
     }
 }
 
 @media (max-width: 400px) {
     .calculator {
-        padding: 15px;
+        padding: 10px; /* Reduce padding further */
     }
 
     #display {
-        font-size: 1.8rem; /* Further reduce size */
+        font-size: 1.8rem; /* Further reduce display font size */
     }
 
     button {
-        font-size: 1.6rem;
-        height: 60px; /* Smaller buttons for tiny screens */
+        font-size: 1.4rem; /* Further reduce button font size */
+        height: 50px; /* Make buttons even smaller for tiny screens */
     }
 }
