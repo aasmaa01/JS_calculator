@@ -13,17 +13,17 @@ body {
 .calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
-    max-width: 400px; /* Reduce the max width to make it smaller */
+    border-radius: 12px; /* Slightly reduced border radius */
+    max-width: 350px; /* Even smaller width */
     width: 100%;
     overflow: hidden;
-    padding: 15px; /* Reduced padding for a more compact look */
+    padding: 10px; /* Minimized padding */
 }
 
 #display {
     width: 100%;
-    padding: 15px;
-    font-size: 2.5rem; /* Adjust font size to be smaller */
+    padding: 10px; /* Reduced padding for a smaller display */
+    font-size: 2rem; /* Smaller font size */
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -34,18 +34,18 @@ body {
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px; /* Reduce gap between buttons */
-    padding: 10px;
+    gap: 6px; /* Reduced gap between buttons */
+    padding: 8px; /* Reduced padding for buttons */
 }
 
 button {
     width: 100%;
-    height: 80px; /* Reduced button height */
+    height: 60px; /* Even smaller button height */
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
     color: white;
-    font-size: 2rem; /* Reduced font size for buttons */
+    font-size: 1.8rem; /* Reduced font size for buttons */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease;
@@ -74,41 +74,41 @@ button:active {
 
 @media (max-width: 768px) {
     #display {
-        font-size: 2.2rem; /* Adjust font size for medium devices */
+        font-size: 1.8rem; /* Smaller font size for medium devices */
     }
 
     button {
-        font-size: 1.8rem; /* Adjust button font size */
-        height: 70px; /* Smaller button height */
+        font-size: 1.6rem; /* Smaller font size */
+        height: 50px; /* Smaller button height */
     }
 }
 
 @media (max-width: 500px) {
     .calculator {
-        padding: 10px; /* Further reduce padding */
+        padding: 8px; /* Further reduce padding */
     }
 
     #display {
-        font-size: 2rem; /* Adjust for smaller screens */
+        font-size: 1.6rem; /* Smaller display font size */
     }
 
     button {
-        font-size: 1.6rem; /* Smaller font size */
-        height: 60px; /* Make buttons even smaller */
+        font-size: 1.4rem; /* Smaller font size for buttons */
+        height: 45px; /* Further reduce button height */
     }
 }
 
 @media (max-width: 400px) {
     .calculator {
-        padding: 10px; /* Reduce padding further */
+        padding: 5px; /* Minimal padding for tiny screens */
     }
 
     #display {
-        font-size: 1.8rem; /* Further reduce display font size */
+        font-size: 1.4rem; /* Very small display font */
     }
 
     button {
-        font-size: 1.4rem; /* Further reduce button font size */
-        height: 50px; /* Make buttons even smaller for tiny screens */
+        font-size: 1.2rem; /* Tiny font size for buttons */
+        height: 40px; /* Super compact button height */
     }
 }
