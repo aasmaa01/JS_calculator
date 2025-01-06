@@ -6,6 +6,8 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
     background-image: url(csgirl.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .calculator{
     font-family: Arial, sans-serif;
