@@ -10,13 +10,14 @@ body{
     background-position: center;
 }
 .calculator{
+   
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
-    overflow: hidden;
+    max-width: 400px; /* Reduce the max width to make it smaller */
     width: 100%;
-    padding: 20px;
+    overflow: hidden;
+    padding: 15px; 
 }
 #display{
     width: 100%;
