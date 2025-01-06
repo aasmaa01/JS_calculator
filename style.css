@@ -14,7 +14,6 @@ body{
     max-width: 500px;
     overflow: hidden;
 }
-
 #display{
     width: 100%;
     padding: 20px;
@@ -78,66 +77,5 @@ button:active{
     ul li {
         font-size: 1rem;
         padding: 10px 5px 10px 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .calculator {
-        padding: 15px;
-    }
-
-    .calculator h2 {
-        font-size: 1.2rem;
-    }
-
-    ul li {
-        font-size: 0.9rem;
-        padding: 8px 4px 8px 35px;
-    }
-}
-#operator_btn:hover{
-    background-color: hsl(35, 100%, 65%);
-}
-#operator_btn:active{
-    background-color: hsl(35, 100%, 75%);
-}                 
-@media (max-width: 768px) {
-    #display {
-        font-size: 1.8rem; /* Smaller font size for medium devices */
-    }
-
-    button {
-        font-size: 1.6rem; /* Smaller font size */
-        height: 50px; /* Smaller button height */
-    }
-}
-
-@media (max-width: 500px) {
-    .calculator {
-        padding: 8px; /* Further reduce padding */
-    }
-
-    #display {
-        font-size: 1.6rem; /* Smaller display font size */
-    }
-
-    button {
-        font-size: 1.4rem; /* Smaller font size for buttons */
-        height: 45px; /* Further reduce button height */
-    }
-}
-
-@media (max-width: 400px) {
-    .calculator {
-        padding: 5px; /* Minimal padding for tiny screens */
-    }
-
-    #display {
-        font-size: 1.4rem; /* Very small display font */
-    }
-
-    button {
-        font-size: 1.2rem; /* Tiny font size for buttons */
-        height: 40px; /* Super compact button height */
     }
 }
