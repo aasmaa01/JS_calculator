@@ -79,3 +79,44 @@ button:active{
         padding: 10px 5px 10px 40px;
     }
 }
+
+@media (max-width: 768px) {
+    #display {
+        font-size: 1.8rem; /* Smaller font size for medium devices */
+    }
+
+    button {
+        font-size: 1.6rem; /* Smaller font size */
+        height: 50px; /* Smaller button height */
+    }
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        padding: 8px; /* Further reduce padding */
+    }
+
+    #display {
+        font-size: 1.6rem; /* Smaller display font size */
+    }
+
+    button {
+        font-size: 1.4rem; /* Smaller font size for buttons */
+        height: 45px; /* Further reduce button height */
+    }
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        padding: 5px; /* Minimal padding for tiny screens */
+    }
+
+    #display {
+        font-size: 1.4rem; /* Very small display font */
+    }
+
+    button {
+        font-size: 1.2rem; /* Tiny font size for buttons */
+        height: 40px; /* Super compact button height */
+    }
+}
