@@ -100,3 +100,49 @@ button:active{
 #operator_btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+
+@media (max-width: 768px) {
+    #display {
+        font-size: 2.5rem; /* Adjust for medium devices */
+    }
+
+    button {
+        font-size: 2.2rem;
+        height: 80px; /* Adjust button size */
+    }
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        padding: 20px 10px;
+    }
+
+    #display {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+
+    .keys {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+    }
+
+    button {
+        font-size: 1.8rem;
+        height: 70px; /* Adjust button size */
+    }
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        padding: 15px;
+    }
+
+    #display {
+        font-size: 1.8rem; /* Further reduce size */
+    }
+
+    button {
+        font-size: 1.6rem;
+        height: 60px; /* Smaller buttons for tiny screens */
+    }
+}
