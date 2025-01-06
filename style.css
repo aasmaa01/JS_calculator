@@ -56,8 +56,16 @@ button:hover {
 button:active {
     background-color: hsl(0, 0%, 50%);
 }
-#operator_btn{
+#operator_btn {
     background-color: hsl(35, 100%, 55%);
+}
+
+#operator_btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+
+#operator_btn:active {
+    background-color: hsl(35, 100%, 75%);
 }
 @media (max-width: 500px) {
     .calculator {
