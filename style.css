@@ -50,11 +50,11 @@ button:active{
     background-color: hsl(35, 100%, 55%);
 }
 @media (max-width: 500px) {
-    .todo-app {
+    .calculator {
         padding: 20px 15px;
     }
 
-    .todo-app h2 {
+    .calculator h2 {
         font-size: 1.5rem;
         margin-bottom: 15px;
     }
@@ -81,11 +81,11 @@ button:active{
 }
 
 @media (max-width: 480px) {
-    .todo-app {
+    .calculator {
         padding: 15px;
     }
 
-    .todo-app h2 {
+    .calculator h2 {
         font-size: 1.2rem;
     }
 
